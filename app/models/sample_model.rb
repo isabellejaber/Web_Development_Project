@@ -1,5 +1,5 @@
 def district(neighborhood)
-    if ["battery park city", "civic center", "chinatown", "financial district", "little italy", "lower east side", "noho", "soho", "south street seaport", "south village", "tribeca", "washington s[quare"].include?(neighborhood.downcase)
+    if ["battery park city", "civic center", "chinatown", "financial district", "little italy", "lower east side", "noho", "soho", "south street seaport", "south village", "tribeca", "washington square"].include?(neighborhood.downcase)
         return "Your district is: District 1."
     elsif ["east village", "gramercy park", "kips bay", "lower east side", "murray hill", "rose hill"].include?(neighborhood.downcase)
         return "Your district is: District 2."
@@ -59,7 +59,7 @@ def district(neighborhood)
         return "Your district is: District 29."
     elsif ["glendale", "maspeth", "middle village", "ridgewood", "woodhaven", "woodside"].include?(neighborhood.downcase)
         return "Your district is: District 30."
-    elsif ["arverne", "brookville", "edgemere", "far Rockaway", "laurelton", "rosedale", "springfield gardens"].include?(neighborhood.downcase)
+    elsif ["arverne", "brookville", "edgemere", "far rockaway", "laurelton", "rosedale", "springfield gardens"].include?(neighborhood.downcase)
         return "Your district is: District 31."
     elsif ["belle harbor", "breezy point", "broad channel", "howard beach", "lindenwood", "neponsit", "ozone park", "richmond hill", "rockaway park", "roxbury", "south ozone park", "west hamilton beach", "woodhaven"].include?(neighborhood.downcase)
         return "Your district is: District 32."
@@ -87,19 +87,19 @@ def district(neighborhood)
         return "Your district is: District 43."
     elsif ["bensonhurst", "borough park", "midwood", "ocean parkway"].include?(neighborhood.downcase)
         return "Your district is: District 44."
-    elsif ["Flatbush", "East Flatbush", "Flatlands", "Midwood", "Canarsie"].include?(neighborhood.downcase)
+    elsif ["flatbush", "east flatbush", "flatlands", "midwood", "canarsie"].include?(neighborhood.downcase)
         return "Your district is: District 45."
-    elsif ["Bergen Beach", "Canarsie", "Flatlands", "Georgetown", "Gerritsen Beach", "Marine Park", "Mill Basin", "Mill Island", "Sheepshead Bay"].include?(neighborhood.downcase)
+    elsif ["bergen beach", "canarsie", "flatlands", "georgetown", "gerritsen beach", "marine park", "mill basin", "mill island", "sheepshead bay"].include?(neighborhood.downcase)
         return "Your district is: District 46."
-    elsif ["Bensonhurst", "Coney Island", "Gravesend", "Sea Gate"].include?(neighborhood.downcase)
+    elsif ["bensonhurst", "coney island", "gravesend", "sea gate"].include?(neighborhood.downcase)
         return "Your district is: District 47."
-    elsif ["Brighton Beach", "Manhattan Beach", "Sheepshead Bay", "Homecrest", "Trump Village", "Luna Park", "Brightwater Towers", "Midwood"].include?(neighborhood.downcase)
+    elsif ["brighton beach", "manhattan beach", "sheepshead bay", "homecrest", "trump village", "luna park", "brightwater towers", "midwood"].include?(neighborhood.downcase)
         return "Your district is: District 48."
-    elsif ["Arlington", "Clifton", "Clove Lakes", "Concord", "Elm Park", "Graniteville", "Livingston", "Mariners Harbor", "New Brighton", "Port Richmond", "Randall Manor", "Rosebank", "St. George", "Snug Harbor", "Silver Lake", "Stapleton", "Sunnyside", "West Brighton", "Tompkinsville"].include?(neighborhood.downcase)
+    elsif ["arlington", "clifton", "clove lakes", "concord", "elm park", "graniteville", "livingston", "mariners harbor", "new brighton", "port richmond", "randall manor", "rosebank", "st. george", "snug harbor", "silver lake", "stapleton", "sunnyside", "west brighton", "tompkinsville"].include?(neighborhood.downcase)
         return "Your district is: District 49."
-    elsif ["Arrochar", "Bloomfield", "Bulls Head", "Chelsea", "Concord", "Dongan Hills", "Egbertville", "Emerson Hill", "Grant City", "Grasmere", "Lighthouse Hill", "Manor Heights", "Midland Beach", "New Dorp", "New Dorp Beach", "New Springville", "Oakwood", "Old Town", "Richmond Town", "South Beach", "Todt Hill", "Travis", "Westerleigh"].include?(neighborhood.downcase)
+    elsif ["arrochar", "bloomfield", "bulls head", "chelsea", "concord", "dongan hills", "egbertville", "emerson hill", "grant city", "grasmere", "lighthouse hill", "manor heights", "midland beach", "new dorp", "new dorp beach", "new springville", "oakwood", "old town", "richmond town", "south beach", "todt hill", "travis", "westerleigh"].include?(neighborhood.downcase)
         return "Your district is: District 50."
-    elsif ["Annadale", "Arden Heights", "Bay Terrace", "Charleston", "Eltingville", "Great Kills", "Greenridge", "Heartland Village", "Huguenot", "New Springville", "Pleasant Plains", "Prince’s Bay", "Richmond Valley", "Rossville", "Tottenville", "Woodrow"].include?(neighborhood.downcase)
+    elsif ["annadale", "arden heights", "bay terrace", "charleston", "eltingville", "great kills", "greenridge", "heartland village", "huguenot", "new springville", "pleasant plains", "prince’s bay", "richmond valley", "rossville", "tottenville", "woodrow"].include?(neighborhood.downcase)
         return "Your district is: District 51."
     else
         return "ERROR. Please try again."
